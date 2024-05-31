@@ -1,0 +1,182 @@
+@media (min-width: 601px) { /* PC Support */
+
+  header {
+    background-color: lightskyblue;
+  }
+  .HeaderTitleContainer {
+    position: relative;
+    margin: 15px 25px;
+    height: 30px;
+    width: 35%;
+    text-align: center;
+    background-color: lightskyblue;
+    border: 2px solid transparent;
+  }
+  
+  .HeaderTitle {
+    position: relative;
+    margin: 11%;
+    font-size: 140%;
+  }
+  
+  .HeaderBorder {
+    position: relative;
+  }
+  
+  .HeaderButtonsContainer {
+    position: relative;
+    padding-top: -9%;
+    padding-left: 45%;
+  }
+  
+  button[class="HeaderButton"] {
+    position: relative;
+    margin-right: 3%;
+    height: 30px;
+    width: 100px;
+    background-color: white;
+    border-color: black;
+    font-size: 100%;
+  }
+  
+  body {
+    height: 120vh;
+  }
+  
+  .SignInButton {
+    position: relative;
+    top: 0%;
+    left: 40px;
+    height: 30px;
+    width: 120px;
+    background-color: white;
+    border-color: black;
+    font-size: 100%;
+  }
+  
+  .HeaderBorder {
+    position: absolute;
+    margin: 8px -10px;
+    height: 0px;
+    width: 100%;
+    border-top: 2px solid transparent;
+  }
+  
+  .NavContainer {
+    position: absolute;
+    margin: 1.5% -10px;
+    height: 45%;
+    width: 100%;
+    background-color: lightskyblue;
+    border: 2px solid black;
+  }
+  
+  .NavTitle1 {
+    position: absolute;
+    margin: 30px 30px;
+    height: 100px;
+    width: 100px;
+    text-align: left;
+    font-size: 170%;
+  }
+  
+  .Slash1 {
+    position: absolute;
+    top: 5%;
+    left: 11%;
+    height: 140px;
+    width: 20px;
+    transform: rotate(20deg);
+    background-color: black;
+    border: 2px solid grey;
+    animation: top 1s forwards;
+  }
+  
+  .NavTitle2 {
+    position: absolute;
+    margin: 150px 270px;
+    height: 100px;
+    width: 100px;
+    text-align: right;
+    font-size: 170%;
+  }
+  
+  .Slash2 {
+    position: absolute;
+    top: 40%;
+    left: 17%;
+    height: 140px;
+    width: 20px;
+    transform: rotate(20deg);
+    background-color: black;
+    border: 2px solid grey;
+  }
+  
+  .NavSideBorder {
+    position: absolute;
+    top: 0%;
+    left: 31%;
+    height: 100%;
+    width: 3px;
+    background-color: black;
+  }
+  
+  .NavInteractiveContainer {
+    position: absolute;
+    margin: 10px 10px;
+    height: 100px;
+    width: 100px;
+    background-color: grey;
+  }
+  
+  .NavInteractiveContainer:hover + .Slash1 {
+    top: 4%;
+    left: 14%;
+  }
+  
+  @keyframes slideIn {
+    50% {
+      top: 5%;
+      left: 11%;
+    }
+    
+    100% {
+      top: 4%;
+      left: 14%;
+    }
+  }
+  
+  .MainShopContainer {
+    position: absolute;
+    margin: 22.1% -8px;
+    height: 70%;
+    width: 100%;
+    background-color: lightskyblue;
+  }
+
+@media (max-width: 600px) { /* Mobile */
+  .HeaderTitleContainer {
+    position: relative;
+    padding-top: 5%;
+    padding-left: 25%;
+  }
+  
+  .HeaderTitle {
+    position: fixed;
+    font-size: 140%;
+  }
+  
+  .HeaderButtonsContainer {
+    position: relative;
+    padding-top: 0%;
+    padding-left: 0%;
+    height: 150px;
+    width: 70px;
+    border: 2px solid black;
+  }
+  
+  .div[name="HeaderShop"] {
+    position: relative;
+    height: 200px;
+  }
+}
